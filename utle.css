@@ -1,0 +1,113 @@
+@media screen  and (max-width:1200px){
+    .banner {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    
+.navbar{
+    flex-direction: column;
+}
+ .toggle{
+position: absolute;
+width: 30px;
+height:30px;
+cursor: pointer;
+background: url('download.png');
+background-size: 30px;
+background-position: center;
+background-repeat: no-repeat;
+filter: invert(1);
+    }
+
+#unique{
+    position: absolute;
+    left: 140px;
+    padding-top: 30px;
+}
+.logo{
+    flex-direction: column;
+}
+.list{
+    flex-direction: column;
+display: none;
+}
+.content h1{
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.content p{
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.next{
+    flex-direction: block;
+}
+.about{
+    flex-direction: block;
+    
+}
+.row{
+    flex-direction: column;
+    align-items: baseline;
+}
+.img2 img{
+    padding-left: 0px;
+    padding-top: 20px;
+}
+.photo{
+    flex-direction: column;
+}
+.cover1{
+    object-fit: cover;
+}
+.contact{
+    flex-direction: column;
+}
+.email{
+    justify-content: center;
+    margin-left: 250px;
+}
+.divide{
+    display: flex;
+}
+.blog{
+    flex-direction: column;
+}
+.photot{
+    margin-right: 350px;
+}
+.blog{
+    flex-direction: column;
+    .
+}
+.contact{
+    flex-direction: column;
+}
+.footer{
+    flex-direction: column;
+}
+@media screen and (max-width 700px){
+    .banner{
+        flex-direction: column;
+    }
+    #unique{
+
+    }
+    .next{
+        flex-direction: column;
+        display: flow-root;
+    }
+    
+    .cont-left{
+        margin-left: 20px;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    .cont-left p{
+        width: 100%;
+        display: grid;
+    }
+}
